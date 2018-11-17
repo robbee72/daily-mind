@@ -1,0 +1,47 @@
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  padding: 10px;
+  color: #fbfbfa;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #b02c5b;
+  border: 0.1rem solid #fff;
+}
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  font-family: "Bellefair", sans-serif;
+  background-color: #74d7e4;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-family: "Roboto Slab", serif;
+}
+
+.footer {
+  position: inherit;
+  margin-top: -40px; /* negative value of footer height */
+  height: 150px;
+  clear: both;
+  padding-top: 20px;
+}
